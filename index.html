@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Thinkful Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <!-- Header & Nav -->
+
+  <header>
+    <div class="name">
+      Alexis Beckman
+    </div>
+    <nav>
+      <ul id="menu">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+    <!--Intro & Image -->
+
+    <section>
+      <div class="group">
+        <div class="item"><img src="images/abeck-prof-pic-sq.jpg" alt="picture of Alexis Beckman" class="image"></div>
+        <div class="item item-double">
+          <h1>Hey! I'm Alexis, Welcome to my page!</h1>
+          <p>I am a future software developer, happily living in <a href="https://www.google.com/maps/place/Milwaukee,+WI/@43.057806,-88.1075137,11z/data=!3m1!4b1!4m5!3m4!1s0x880502d7578b47e7:0x445f1922b5417b84!8m2!3d43.0389025!4d-87.9064736">Milwaukee, Wisconsin</a>. I am currently a student at Thinkful learning Javascript, HTML, CSS, and more! Once I am <del>a master</del> <ins>fluent</ins> in javascript I would like to learn other programing languages.</p>
+          <p>As a former high school math teacher, I am interested in collababoratively problem solving, creating accessible content, and breaking complex problems into smaller, organized pieces. Once I have more experience I would love to help others learn about software engineering, especially at the middle or high school level.</p>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- About Me -->
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="group">
+        <div class="item">
+          <p>I graduated from Carroll University in 2015 with my Bachelors of Science in Mathematics and minor in Secondary Education. After graduation I moved to upstate New York where my husband and I started our teaching careers. We lived in upstate New York (Binghamton/Syracuse area) for about 4 years before moving back home to Milwaukee, Wisconsin in 2019. </p>
+          <p>While I loved teaching high school math, I found myself longing to be the one that was problem-solving, not just teaching it. Even though I have been curious for a while about becoming a software engineer, I just started my journey with Thinkful in 2020. I am super excited to become a software engineer and put my logical problem-solving skills to use! In the future I would love to work with secondary education sites, services, and resources to make math teaching and learning more accessible for students, staff, and parents. I would also like to use my teaching background to teach others how to code and join the movement to bring more computer science programs to public education. </p>
+          <p>Outside of work, I like to go on outdoor adventures with my two rescue dogs, Lambeau and Louie, and explore all that Milwaukee has to offer. When I am at home, I like to crochet and play board games with my family and friends.</p>
+
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- Portfolio -->
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="group">
+        <div class="item"><!-- Local Library Project -->
+        <img src="images/portfolio/local-lib-project.PNG" alt="Local library project - Beckman" class="image"></div>
+        <div class="item item-triple">
+          <h3>Local Library</h3>
+          <p>For the local library project I created multiple algorithms using advanced JavaScript functions to update a fictional library page. The main reason was to organize the dashboards so that it showed which books are available, which are currently out, the most popular books/authors/genres, and other general statistics about the program.</p>
+          <p>This was one of my first exposures to large data sets and applied my knowledge of multiple advanced javaScript functions. This project improved my skills in writing clean code, analyzing and orgainizing larges amount of data, combing data sets, and my overall understanding of JavaScript.</p>
+          <p><a href="https://github.com/beckmana/project-local-library" target="_blank">GitHub</a> | <a href=""><del>Project Site</del></a></p>
+        </div>
+      </div><!-- Decoder ring Project -->
+      <div class="group">
+        <div class="item"><img src="images/portfolio/decoder-ring-project.PNG" alt="Decoder ring project - Beckman" class="image"></div>
+        <div class="item item-triple">
+          <h3>Decoder Ring</h3>
+          <p>For the decoder ring project I built an application that will help you encode and decode all kinds of fun messages. There are three chipers that I wrote the JavaScript for, Caesar cipher, Polybius square, and Substitution cipher.</p>
+          <p>This project tested my ability to build complex algorithms and write unit tests with Mocha and Chai to test the algorithms. I followed the Test driven development model to ensure that all three ciphers worked as expected.</p>
+          <p><a href="https://github.com/beckmana/Decoder-ring" target="_blank">GitHub</a> | <a href="https://beckmana.github.io/Decoder-ring/" target="_blank">Project Site</a></p>
+        </div>
+      </div>
+      <div class="group">
+        <div class="item"><img src="images/portfolio/stay-tuned.png" alt="More projects coming soon - Beckman" class="image"></div>
+        <div class="item item-triple">
+          <h3>NEW PROJECT COMING SOON!</h3>
+          <p>This is a description of my next project. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+          <p><a href="" target="_blank">GitHub</a> | <a href="" target="_blank">Project Site</a></p>
+        </div>
+      </div>
+      <div class="group">
+        <div class="item"><img src="images/portfolio/stay-tuned.png" alt="More projects coming soon - Beckman" class="image"></div>
+        <div class="item item-triple">
+          <h3>NEW PROJECT COMING SOON!</h3>
+          <p>This is a description of my next project. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+          <p><a href="" target="_blank">GitHub</a> | <a href="" target="_blank">Project Site</a></p>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- Contact Form -->
+
+    <section id="contact">
+      <form action="https://formspree.io/f/xrgojnpp" method="post">
+        <fieldset>
+          <h2><legend>Contact</legend></h2><label for="user-name">Name:</label> <input id="user-name" type="text" name="name"> <label for="user-email">Email:</label> <input id="user-email" type="text" name="email"> <label for="user-message">Message:</label> 
+          <textarea id="user-message" name="message"></textarea> <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+      <div class="other-contacts">
+        <h4>I look forward to hearing from you!</h4>
+        <ul>
+          <li>
+            <a href="https://github.com/beckmana" target="_blank"><img src="images/github-icon.png" alt="GitHub logo" class="image media">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/alexis-beckman-36368463/" target="_blank"><img src="images/linkedin-icon.png" alt="LinkedIn logo" class="image media">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:amjurena@gmail.com"><img src="images/email-icon.png" alt="Gmail logo" class="image media">Email</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <p>© Alexis Beckman</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
